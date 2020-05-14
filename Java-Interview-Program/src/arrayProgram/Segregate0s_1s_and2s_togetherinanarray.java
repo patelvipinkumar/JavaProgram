@@ -5,7 +5,7 @@ public class Segregate0s_1s_and2s_togetherinanarray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int arr[] ={0,1,0,1,1,0,1,0};
+		int arr[] ={0,1,0,1,1,2,0,1,0,1};
 		int low=0,mid=0,high=arr.length-1,temp;
 		while(mid<=high) {
 			switch(arr[mid]) {

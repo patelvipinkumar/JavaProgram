@@ -19,7 +19,7 @@ public class ChangeCaseOfAllCharactersInString {
 				System.out.print((char)ch);
 			}
 			if (ch==32) {
-				System.out.println(" ");
+				System.out.print(" ");
 			}
 		}
 	}

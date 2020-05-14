@@ -11,7 +11,7 @@ public class StringHasAllUniqueCharacters {
 
 		boolean result=false;
         String inputstring="vipn";
-        System.out.println("String method 4 answer "+ getNonRepeatedCharacter(inputstring));
+        System.out.println("String method 4 answer 4 "+ getNonRepeatedCharacter(inputstring));
 		
 	}
 	 public static boolean getNonRepeatedCharacter(String str) {
