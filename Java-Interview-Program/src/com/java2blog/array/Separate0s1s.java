@@ -29,18 +29,15 @@ public class Separate0s1s {
 	}
 	public static int [] separate0s1sSolution2(int arr []) {
 		
-		int l=0;
-		int mid=0,temp;
-		int h=arr.length;
-		
-		while(mid<h) {
+		int low=0,mid=0,high=arr.length-1,temp;
+		while(mid<=high) {
 			switch(arr[mid]) {
 			case 0:
-				temp=arr[l];
-				arr[l]=arr[mid];
+				temp=arr[low];
+				arr[low]=arr[mid];
 				arr[mid]=temp;
+				low++;
 				mid++;
-				l++;
 				break;
 			case 1:
 				mid++;
@@ -49,6 +46,29 @@ public class Separate0s1s {
 			
 			
 		}
+		return arr;
+		
+	}
+	public static int [] separate0s1sSolution3(int arr []) {
+		
+		
+		for(int i=0;i<arr.length;i++) {
+			int l=0;
+			int mid=0,temp;
+			int h=arr.length-1;;
+			while(arr[l]==0) {
+				l++;
+			}
+			while(arr[h]==1) {
+				h--;
+			}
+			if(l<h) {
+				temp=arr[l];
+				arr[l]=arr[h];
+				arr[h]=temp;
+			}
+		}
+		
 		return arr;
 		
 	}
