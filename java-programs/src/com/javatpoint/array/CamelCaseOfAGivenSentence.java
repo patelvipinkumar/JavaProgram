@@ -22,7 +22,7 @@ class CamelCaseOfAGivenSentence {
 	}
 
 	public static void main(String args[]) {
-		String str = "Java code for kth smallest element in an array";
+		String str = "Print Odd and Even Number from an Array";
 		System.out.println(convert(str));
 	}
 }
