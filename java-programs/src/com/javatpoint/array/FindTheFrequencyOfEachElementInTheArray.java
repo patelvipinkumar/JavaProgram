@@ -1,4 +1,4 @@
-package com.javatpoint;
+package com.javatpoint.array;
 
 import java.util.HashMap;
 import java.util.Map;

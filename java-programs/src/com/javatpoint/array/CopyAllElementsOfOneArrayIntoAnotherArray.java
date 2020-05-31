@@ -1,4 +1,4 @@
-package com.javatpoint;
+package com.javatpoint.array;
 
 public class CopyAllElementsOfOneArrayIntoAnotherArray {
 	public static void main(String[] args) {

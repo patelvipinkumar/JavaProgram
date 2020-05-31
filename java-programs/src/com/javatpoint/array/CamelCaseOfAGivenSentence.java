@@ -1,4 +1,4 @@
-package com.javatpoint;
+package com.javatpoint.array;
 
 class CamelCaseOfAGivenSentence {
 	static String convert(String s) {
@@ -22,7 +22,7 @@ class CamelCaseOfAGivenSentence {
 	}
 
 	public static void main(String args[]) {
-		String str = "find the frequency of each element in the array";
+		String str = "Java code for kth smallest element in an array";
 		System.out.println(convert(str));
 	}
 }
