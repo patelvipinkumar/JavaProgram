@@ -22,7 +22,7 @@ class CamelCaseOfAGivenSentence {
 	}
 
 	public static void main(String args[]) {
-		String str = "Print Odd and Even Number from an Array";
+		String str = "Count triplets with sum smaller than a given value";
 		System.out.println(convert(str));
 	}
 }
