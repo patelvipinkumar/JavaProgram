@@ -1,4 +1,4 @@
-package java8.test;
+package com.javatpoint.array;
 
 import java.util.*;
 import java.lang.*;

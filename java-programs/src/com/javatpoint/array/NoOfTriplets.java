@@ -1,4 +1,4 @@
-package java8;
+package com.javatpoint.array;
 class NoOfTriplets {
 	static void printTriplets(int arr[], int n, int sum) {
 		sort(arr, 0, arr.length - 1);

@@ -1,4 +1,4 @@
-package java8;
+package com.javatpoint.array;
 
 class MergeOneSortedAndOneUnsortedStringOfArrays {
 

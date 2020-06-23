@@ -1,4 +1,4 @@
-package java8.test;
+package oopsexp;
 
 public class A {
 	public static void main(String[] args) {
@@ -11,3 +11,6 @@ public class A {
 class B{
 	
 }
+
+// class B extends Object
+// override toString Method

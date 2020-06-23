@@ -1,4 +1,4 @@
-package java8.test;
+package com.javatpoint.array;
 class calculate
 {
       public static void main(String args[])

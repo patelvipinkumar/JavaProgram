@@ -1,4 +1,4 @@
-package java8;
+package JavaTrickyProgram;
 
 class AB {
 	AB(){

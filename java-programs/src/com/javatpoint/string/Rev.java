@@ -1,4 +1,4 @@
-package java8;
+package com.javatpoint.string;
 
 public class Rev {
 	public static void main(String[] args) {

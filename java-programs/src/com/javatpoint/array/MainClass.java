@@ -1,4 +1,4 @@
-package java8.test;
+package com.javatpoint.array;
 
 public class MainClass {
 	public static void main(String[] args) {

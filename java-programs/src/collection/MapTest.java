@@ -1,4 +1,4 @@
-package java8;
+package collection;
 
 import java.util.HashMap;
 

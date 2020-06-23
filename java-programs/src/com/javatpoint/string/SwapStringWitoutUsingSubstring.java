@@ -1,4 +1,4 @@
-package java8.test;
+package com.javatpoint.string;
 
 class SwapStringWitoutUsingSubstring{
 	public static void main(String [] args){

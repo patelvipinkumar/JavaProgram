@@ -1,4 +1,4 @@
-package java8;
+package com.javatpoint.string;
 
 import java.util.Collections;
 import java.util.Comparator;
